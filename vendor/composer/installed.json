@@ -1,0 +1,54 @@
+[
+    {
+        "name": "amazonwebservices/aws-sdk-for-php",
+        "version": "1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/amazonwebservices/aws-sdk-for-php.git",
+            "reference": "1.6.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/amazonwebservices/aws-sdk-for-php/archive/1.6.0.zip",
+            "reference": "1.6.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2013-01-21 20:03:38",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "authentication/",
+                "extensions/",
+                "lib/",
+                "services/",
+                "utilities/",
+                "sdk.class.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Amazon Web Services",
+                "homepage": "http://aws.amazon.com"
+            }
+        ],
+        "description": "AWS SDK for PHP",
+        "homepage": "http://aws.amazon.com/sdkforphp/",
+        "keywords": [
+            "amazon",
+            "s3",
+            "sdk",
+            "aws",
+            "dynamodb",
+            "ec2"
+        ]
+    }
+]
